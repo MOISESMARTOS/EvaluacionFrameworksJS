@@ -43,7 +43,7 @@ function colorDos(titulo){
     })
 }
 
-
+//evento para reiniciar el juego
 $(".btn-reinicio").click(function(){
 	i=0;
 	score=0;
