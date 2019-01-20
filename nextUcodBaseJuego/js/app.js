@@ -273,5 +273,5 @@ function nuevosdulces(){
 // Función para contar los movimientos y puntos en toda la pantalla
 
 function finalizar(){
-	$( ".panel-score" ).animate({width:'100%'},3000);
+	$( ".panel-score" ).animate({width:'100%'},2000);
 };
