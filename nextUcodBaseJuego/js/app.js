@@ -108,7 +108,7 @@ function timer(){
 			clearInterval(nuevosDulces);
 			clearInterval(intervalo);
 			clearInterval(tiempo);
-			$(".panel-tablero").hide("drop","slow",funcioncita);
+			$(".panel-tablero").hide("drop","slow",finalizar);
 			$(".time").hide();}
 		seg=59;
 		min=min-1;}
@@ -270,8 +270,8 @@ function nuevosdulces(){
 };
 
 
-// Función para contar los movimientos y puntos de toda la pantalla
+// Función para contar los movimientos y puntos en toda la pantalla
 
-function funcioncita(){
+function finalizar(){
 	$( ".panel-score" ).animate({width:'100%'},3000);
 };
